@@ -2,7 +2,7 @@
 $city = "";
 $newWeather = "";
 $error = "";
-if(array_key_exists("city",$_GET) {
+if(array_key_exists("city",$_GET) ) {
 
 
     $city = $_GET["city"];
